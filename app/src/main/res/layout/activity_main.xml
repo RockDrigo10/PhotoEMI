@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.admin.photoemi.MainActivity"
+    android:weightSum="1">
+    <Button
+        android:id="@+id/btnCamera"
+        android:onClick="goToCamera"
+        android:text="Take a Picture"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@android:color/holo_green_light"
+        />
+    <ImageView
+        android:id="@+id/ivImage"
+        android:layout_height="644dp"
+        android:layout_width="match_parent"
+        android:layout_gravity="center"
+        android:layout_weight="0.99" />
+    <Button
+        android:id="@+id/btnSecond"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Go to EMI"
+        android:onClick="goToEMI"/>
+
+
+
+
+</LinearLayout>
